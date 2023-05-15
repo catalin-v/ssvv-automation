@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="org.example.features.search.SearchByKeywordStory" skipped="0" tests="4" time="242.38" timestamp="2023-05-13 05:22:21"><testcase classname="org.example.features.search.SearchByKeywordStory" name="Add to cart"><failure message="&#10;Expected: a string containing &quot;5&quot;&#10;     but: was &quot;3&quot;" type="java.lang.AssertionError">
+Expected: a string containing "5"
+     but: was "3"</failure><system-err>
+Expected: a string containing "5"
+     but: was "3"
+org.example.steps.serenity.EndUserSteps.should_have_items(EndUserSteps.java:38)
+org.example.features.search.SearchByKeywordStory.addToCart(SearchByKeywordStory.java:88)
+</system-err></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Search bec"><failure message="&#10;Expected: a string containing &quot;Bec de intuneric&quot;&#10;     but: was &quot;Bec LED RGB inteligent Nous P3, Wi-Fi, E27, 9W, 810 lm, lumina alba si colorata, control vocal, compatibil Google Assistant, amazon alexa , clasa energetica F&quot;" type="java.lang.AssertionError">
+Expected: a string containing "Bec de intuneric"
+     but: was "Bec LED RGB inteligent Nous P3, Wi-Fi, E27, 9W, 810 lm, lumina alba si colorata, control vocal, compatibil Google Assistant, amazon alexa , clasa energetica F"</failure><system-err>
+Expected: a string containing "Bec de intuneric"
+     but: was "Bec LED RGB inteligent Nous P3, Wi-Fi, E27, 9W, 810 lm, lumina alba si colorata, control vocal, compatibil Google Assistant, amazon alexa , clasa energetica F"
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)
+org.example.features.search.SearchByKeywordStory.searchBec(SearchByKeywordStory.java:77)
+</system-err></testcase></testsuite>
